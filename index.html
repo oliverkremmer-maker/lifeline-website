@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lifeline OS — Your life, in flow.</title>
+<meta name="description" content="A private operating system for your whole life. Tasks, goals, routines, documents, relationships, and memory — finally in one place.">
+<style>
+  :root {
+    --ink: #0E1116;
+    --surface: #181C23;
+    --bone: #F4F0E8;
+    --amber: #E8A053;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--ink); color: var(--bone); font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; }
+  body { min-height: 100vh; line-height: 1.5; }
+  .glow { position: fixed; top: -200px; left: -120px; width: 500px; height: 500px; background: radial-gradient(circle, rgba(232,160,83,0.18), transparent 70%); filter: blur(60px); pointer-events: none; z-index: 0; }
+  main { max-width: 720px; margin: 0 auto; padding: 80px 28px 120px; position: relative; z-index: 1; }
+  .eyebrow { font-size: 12px; font-weight: 600; letter-spacing: 2px; color: var(--amber); margin-bottom: 18px; }
+  h1 { font-family: "New York", "Times New Roman", Georgia, serif; font-weight: 600; font-size: 56px; line-height: 1.05; margin-bottom: 24px; }
+  .lead { font-family: "New York", "Times New Roman", Georgia, serif; font-size: 22px; line-height: 1.45; color: rgba(244,240,232,0.75); margin-bottom: 48px; max-width: 560px; }
+  .features { display: grid; grid-template-columns: 1fr; gap: 14px; margin: 60px 0 80px; }
+  .feature { background: var(--surface); border-radius: 16px; padding: 22px 24px; }
+  .feature h3 { font-size: 13px; font-weight: 600; letter-spacing: 1.4px; color: var(--amber); margin-bottom: 8px; }
+  .feature p { color: rgba(244,240,232,0.85); font-size: 15px; }
+  .footer-links { display: flex; gap: 28px; flex-wrap: wrap; padding-top: 48px; border-top: 1px solid rgba(244,240,232,0.08); }
+  .footer-links a { color: rgba(244,240,232,0.6); text-decoration: none; font-size: 14px; }
+  .footer-links a:hover { color: var(--amber); }
+  .small { color: rgba(244,240,232,0.4); font-size: 12px; margin-top: 24px; }
+  @media (max-width: 600px) { h1 { font-size: 40px; } .lead { font-size: 18px; } main { padding-top: 60px; } }
+</style>
+</head>
+<body>
+<div class="glow"></div>
+<main>
+  <div class="eyebrow">LIFELINE OS</div>
+  <h1>Your life,<br>in flow.</h1>
+  <p class="lead">A private operating system for your whole life. Tasks, goals, routines, documents, relationships, and memory — finally in one place.</p>
+
+  <div class="features">
+    <div class="feature"><h3>THE LIFE MAP</h3><p>Zoom out: your decade. Zoom in: your next hour.</p></div>
+    <div class="feature"><h3>THE BRAIN</h3><p>Natural-language across every screen. "Remind me to call mom on her birthday." "What did I commit to last week?"</p></div>
+    <div class="feature"><h3>THE WEEKLY COUNCIL</h3><p>Every Sunday, a calm 7-minute ritual. Three honest questions. The week, rebuilt.</p></div>
+    <div class="feature"><h3>MEMORY VAULT</h3><p>Every doc, every decision, every detail you'd otherwise forget. Searchable. Forever.</p></div>
+    <div class="feature"><h3>RELATIONSHIP OS</h3><p>A private CRM for the humans you love. Last contact, important details, gentle nudges so people who matter never drift.</p></div>
+    <div class="feature"><h3>PRIVACY AT THE LIFE LEVEL</h3><p>On-device intelligence wherever possible. Optional zero-knowledge mode for Pro.</p></div>
+  </div>
+
+  <div class="footer-links">
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="support.html">Support</a>
+  </div>
+  <p class="small">© 2026 Oliver Kremmer</p>
+</main>
+</body>
+</html>
